@@ -1,0 +1,28 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/js/mod/accompany/accompany_order3','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="list-category-top">
+    <div class="list-category-title" id="page-title">
+        58-陪护
+    </div>
+</div>
+<div class="list-category-content" style="width:1000px;margin-top:5px;" id="page_content">
+    <div style="float:left;" id="d1" data-right="d2">
+        <img src="__PUBLIC__/img/peihu/order3_xs.png" />
+    </div>
+    <div style="float:left;margin-left:10px;" id="d2" data-right="d3" data-left="d1">
+        <img src="__PUBLIC__/img/peihu/order3_ss.png" />
+    </div>
+    <div style="float:left;margin-left:10px;" id="d3" data-right="d4" data-left="d2">
+        <img src="__PUBLIC__/img/peihu/order3_zs.png" />
+    </div>
+    <div style="float:left;margin-left:10px;" id="d4" data-left="d3">
+        <img src="__PUBLIC__/img/peihu/order3_zj.png" />
+    </div>
+</div>

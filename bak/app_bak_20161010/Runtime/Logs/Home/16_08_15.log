@@ -1,0 +1,603 @@
+[ 2016-08-15T16:45:02+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: ConfigCacheService->init :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T16:45:02+08:00 ] 10.10.20.103 /app/Home/Public/js/tools/MsgHelper.js?_v=1.0.0.0793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Home
+
+[ 2016-08-15T16:47:06+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T16:48:45+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T16:49:15+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T16:49:25+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T16:50:50+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-d292aa40-2bf6-4998-9b55-f77ab0e09b78】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T17:27:29+08:00 ] 10.10.20.103 /index/index?action=login&areacode=10100001&usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+NOTIC: [8] Undefined index: header D:\tpcloud\tvportal\app\Home\Common\function.php 第 68 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\tpcloud\tvportal\app\Home\Common\function.php 第 78 行.
+NOTIC: [8] Undefined property: stdClass::$recode D:\tpcloud\tvportal\app\Home\Controller\IndexController.class.php 第 43 行.
+DEBUG: before urlencode - backUrl :: 【http://10.10.20.11:15008/?exit=1】
+DEBUG: after urlencode - backUrl :: 【http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1】
+DEBUG: redirecturl - [http://10.10.20.11:15010/index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1]
+
+[ 2016-08-15T17:27:29+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T17:27:29+08:00 ] 10.10.20.103 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T17:28:52+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-15T17:30:33+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:02:46+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:19:42+08:00 ] 10.10.20.103 /index/index?action=login&areacode=10100001&usercode=1010000116081503235537701&user_session=10100001-f0aa3e4c-3084-4a85-ad98-8e660e632d85&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-f0aa3e4c-3084-4a85-ad98-8e660e632d85】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+NOTIC: [8] Undefined index: header D:\tpcloud\tvportal\app\Home\Common\function.php 第 68 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\tpcloud\tvportal\app\Home\Common\function.php 第 78 行.
+NOTIC: [8] Undefined property: stdClass::$recode D:\tpcloud\tvportal\app\Home\Controller\IndexController.class.php 第 43 行.
+DEBUG: before urlencode - backUrl :: 【http://10.10.20.11:15008/?exit=1】
+DEBUG: after urlencode - backUrl :: 【http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1】
+DEBUG: redirecturl - [http://10.10.20.11:15010/index/showpage?usercode=1010000116081503235537701&user_session=10100001-f0aa3e4c-3084-4a85-ad98-8e660e632d85&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1]
+
+[ 2016-08-15T18:19:42+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-f0aa3e4c-3084-4a85-ad98-8e660e632d85&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-f0aa3e4c-3084-4a85-ad98-8e660e632d85】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:25:17+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:26:17+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-15T18:30:08+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:27+08:00 ] 10.10.20.103 /my/message?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15010%2Findex%2Fshowpage%3Fusercode%3D1010000116081503235537701%26user_session%3D10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6%26websitecode%3D%26navcode%3DCM20160815001%26focusid%3Dtd2%26backUrl%3Dhttp%253A%252F%252F10.10.20.11%253A15008%252F%253Fexit%253D1&_v=30315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:32+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&navcode=CM20160815001&focusid=td2&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1&_v=7033
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:33+08:00 ] 10.10.20.103 /my?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15010%2Findex%2Fshowpage%3Fusercode%3D1010000116081503235537701%26user_session%3D10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6%26websitecode%3D%26navcode%3DCM20160815001%26focusid%3Dtd1%26backUrl%3Dhttp%253A%252F%252F10.10.20.11%253A15008%252F%253Fexit%253D1&_v=70155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:34+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&navcode=CM20160815001&focusid=td1&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1&_v=27020
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:36+08:00 ] 10.10.20.103 /my/collect?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15010%2Findex%2Fshowpage%3Fusercode%3D1010000116081503235537701%26user_session%3D10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6%26websitecode%3D%26navcode%3DCM20160815001%26focusid%3Dtd6%26backUrl%3Dhttp%253A%252F%252F10.10.20.11%253A15008%252F%253Fexit%253D1&_v=99658
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:36+08:00 ] 10.10.20.103 /my/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2016-08-15T18:30:38+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&navcode=CM20160815001&focusid=td6&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1&_v=99614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:39+08:00 ] 10.10.20.103 /my/history?usercode=1010000116081503235537701&user_session=10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15010%2Findex%2Fshowpage%3Fusercode%3D1010000116081503235537701%26user_session%3D10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6%26websitecode%3D%26navcode%3DCM20160815001%26focusid%3Dtd7%26backUrl%3Dhttp%253A%252F%252F10.10.20.11%253A15008%252F%253Fexit%253D1&_v=3569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-c98e3315-4df6-4919-99fe-a56b55ef58d6】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:30:39+08:00 ] 10.10.20.103 /my/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2016-08-15T18:33:45+08:00 ] 10.10.20.103 /index/index?action=login&areacode=10100001&usercode=1010000116081503235537701&user_session=10100001-77e3161d-5725-4267-a231-60c7319b8fe3&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-77e3161d-5725-4267-a231-60c7319b8fe3】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+NOTIC: [8] Undefined index: header D:\tpcloud\tvportal\app\Home\Common\function.php 第 68 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\tpcloud\tvportal\app\Home\Common\function.php 第 78 行.
+NOTIC: [8] Undefined property: stdClass::$recode D:\tpcloud\tvportal\app\Home\Controller\IndexController.class.php 第 43 行.
+DEBUG: before urlencode - backUrl :: 【http://10.10.20.11:15008/?exit=1】
+DEBUG: after urlencode - backUrl :: 【http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1】
+DEBUG: redirecturl - [http://10.10.20.11:15010/index/showpage?usercode=1010000116081503235537701&user_session=10100001-77e3161d-5725-4267-a231-60c7319b8fe3&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1]
+
+[ 2016-08-15T18:33:46+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-77e3161d-5725-4267-a231-60c7319b8fe3&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-77e3161d-5725-4267-a231-60c7319b8fe3】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-15T18:33:46+08:00 ] 10.10.20.103 /index/index?action=login&areacode=10100001&usercode=1010000116081503235537701&user_session=10100001-85692774-f9a7-4020-9c4f-5cbe8dc49cd5&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-85692774-f9a7-4020-9c4f-5cbe8dc49cd5】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+NOTIC: [8] Undefined index: header D:\tpcloud\tvportal\app\Home\Common\function.php 第 68 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\tpcloud\tvportal\app\Home\Common\function.php 第 78 行.
+NOTIC: [8] Undefined property: stdClass::$recode D:\tpcloud\tvportal\app\Home\Controller\IndexController.class.php 第 43 行.
+DEBUG: before urlencode - backUrl :: 【http://10.10.20.11:15008/?exit=1】
+DEBUG: after urlencode - backUrl :: 【http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1】
+DEBUG: redirecturl - [http://10.10.20.11:15010/index/showpage?usercode=1010000116081503235537701&user_session=10100001-85692774-f9a7-4020-9c4f-5cbe8dc49cd5&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1]
+
+[ 2016-08-15T18:33:46+08:00 ] 10.10.20.103 /index/showpage?usercode=1010000116081503235537701&user_session=10100001-85692774-f9a7-4020-9c4f-5cbe8dc49cd5&websitecode=&backUrl=http%3A%2F%2F10.10.20.11%3A15008%2F%3Fexit%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: BaseController->formatResolution :: user_session - 【10100001-85692774-f9a7-4020-9c4f-5cbe8dc49cd5】 $areacode - 【10100001】
+INFO: function->initConfig :: $areacode - 【10100001】
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

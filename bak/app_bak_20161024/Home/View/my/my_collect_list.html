@@ -1,0 +1,21 @@
+﻿<layout name="Layout/content" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}    
+    {:loadfile('__PUBLIC__/js/base/tableEvent','js')}
+    {:loadfile('__PUBLIC__/js/mod/my/mycollect','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label>我的收藏</label>
+    </div>
+    <div class="list-pageNumber" id="page-number">
+    </div>
+</div>
+<div class="page-list" id="page_content">
+</div>
+

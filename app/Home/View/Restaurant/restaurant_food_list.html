@@ -1,0 +1,53 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/reset','css')}   
+    {:loadfile('__PUBLIC__/css/restaurant/food_list','css')}
+    {:loadfile('__PUBLIC__/data/tp_foodlist','js')}	
+	{:loadfile('__PUBLIC__/js/jquery.min','js')}	
+    {:loadfile('__PUBLIC__/js/mod/restaurant/restaurant_food_list','js')}
+   
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+	<div id="wrap">
+			<div class="header">
+				<h2>粗粮人家</h2>
+			</div>
+			<div class="content">
+				<div class="con_wrap">
+					<div class="mask_con"><img src="__PUBLIC__/img/restaurant/food_list/2_03.png" alt="jianbing"></div>
+					<div class="mask wrap">
+						<img src="__PUBLIC__/img/restaurant/food_list/select.png" alt="jianbing">		
+					</div>
+					<div id="foodlist">
+						<!--dl class="clear">
+							<dt><img src="__PUBLIC__/img/restaurant/food_list/jianbing.png" alt="jianbing" /></dt>
+							<dd class="food_name clear">
+								<span>煎饼大王</span>
+								<i>￥10</i>
+							</dd>
+							<dd class="shicai">食材：玉米面、鸡蛋、葱花、豆瓣酱、香菜、辣椒酱、麻叶</dd>
+						</dl>
+						<dl class="clear">
+							<dt><img src="__PUBLIC__/img/restaurant/food_list/noodles.png" alt="jianbing" /></dt>
+							<dd class="food_name clear">
+								<span>牛肉面</span>
+								<i>￥25</i>
+							</dd>
+							<dd class="shicai">食材：面、牛肉、香菜、酸菜</dd>
+						</dl>
+						<dl class="clear">
+							<dt><img src="__PUBLIC__/img/restaurant/food_list/fruit.png" alt="jianbing" /></dt>
+							<dd class="food_name clear">
+								<span>水果沙拉</span>
+								<i>￥30</i>
+							</dd>
+							<dd class="shicai">食材：草莓、芒果、火龙果、圣女果、沙拉</dd>
+						</dl>-->
+					</div>
+				</div>
+			</div>
+		</div>

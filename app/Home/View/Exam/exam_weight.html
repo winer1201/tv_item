@@ -1,0 +1,83 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/exam/exam_weight','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label class="exam-form-title" id="lbltitle">健康档案 - 体重体成分</label>
+    </div>
+</div>
+<div class="page-list" id="page_content">
+    <div class="exam-form-bg" style="background:url(__PUBLIC__/img/exam/exam_bg.png);padding:0px;">
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">本段时间内，您总共测量了21次体重、21次BMI、 2次体形判断，18次身体年龄， 18次肌肉率、18次脂肪率， 18次内脏脂肪指数，18次基础代谢 16次身体水分含量、16次骨骼率。其中：</label>
+        </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">体重正常</label>
+            <label class="exam-form-label-green">1次</label>
+            <label class="exam-from-col-label">，过轻：</label>
+            <label class="exam-form-label-red">3次</label>
+            <label class="exam-from-col-label">，肥胖：</label>
+            <label class="exam-form-label-red">4次</label>
+            <br />
+            <label class="exam-from-col-label">身体年龄比实际年龄轻：</label>
+            <label class="exam-form-label-green">11次</label>
+            <label class="exam-from-col-label">，与实际年龄相同：</label>
+            <label class="exam-form-label-red">1次</label>
+            <label class="exam-from-col-label">，老一点：</label>
+            <label class="exam-form-label-red">6次</label>
+            <br />
+            <label class="exam-from-col-label">肌肉率正常：</label>
+            <label class="exam-form-label-green">3次</label>
+            <label class="exam-from-col-label">，偏低：</label>
+            <label class="exam-form-label-red">10次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">5次</label>
+            <br />
+            <label class="exam-from-col-label">脂肪率正常：</label>
+            <label class="exam-form-label-green">4次</label>
+            <label class="exam-from-col-label">，偏低：</label>
+            <label class="exam-form-label-red">3次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">11次</label>
+            <br />
+            <label class="exam-from-col-label">内脏脂肪指数正常：</label>
+            <label class="exam-form-label-green">8次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">10次</label>
+            <br />
+            <label class="exam-from-col-label">基础代谢正常：</label>
+            <label class="exam-form-label-green">8次</label>
+            <label class="exam-from-col-label">，偏低：</label>
+            <label class="exam-form-label-red">1次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">9次</label>
+            <br />
+            <label class="exam-from-col-label">身体水分含量标准：</label>
+            <label class="exam-form-label-green">10次</label>
+            <label class="exam-from-col-label">，偏低：</label>
+            <label class="exam-form-label-red">3次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">3次</label>
+            <br />
+            <label class="exam-from-col-label">骨骼率标准：</label>
+            <label class="exam-form-label-green">2次</label>
+            <label class="exam-from-col-label">，偏低：</label>
+            <label class="exam-form-label-red">14次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">0次</label>
+        </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">如果您对数据报告有任何疑问，请及时咨询私人医生。</label>
+        </div>
+    </div>
+    <div class="exam-form-right">
+        <img src="../../app/home/Public/img/exam/exam_right.png" />
+    </div>
+</div>

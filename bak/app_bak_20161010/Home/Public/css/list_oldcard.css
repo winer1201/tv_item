@@ -1,0 +1,39 @@
+﻿body {
+}
+
+
+.page-list-title {
+    overflow: hidden;
+    height: 114px;
+    width: 100%;
+    vertical-align: central;
+}
+
+.page-list-title label {
+        font-size: 30px;
+        color: #1775a7;
+    }
+
+.list-title {    
+    text-align:left;
+    float: left;
+    margin-left: 69px;
+    margin-top: 47px;
+    width:80%;
+    
+}
+
+.list-title hr{
+    height:1px;border:none;border-top:1px solid #555555;
+}
+
+.page-list {
+    overflow: hidden;
+    width: 100%;
+    padding-left: 113px;
+}
+
+.tile img {
+        width: 195px;
+        height: 204px;
+    }

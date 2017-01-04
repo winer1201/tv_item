@@ -1,0 +1,386 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}  
+    {:loadfile('__PUBLIC__/js/mod/list/list_category','js')}
+    {:loadfile('__PUBLIC__/data/tp_listcategory','js')}
+    {:loadfile('__PUBLIC__/js/tools/titleRollTool','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+    var img_cir = "__PUBLIC__/img/list_category/circular.png";
+    var img_line = "__PUBLIC__/img/list_category/line.png";
+    var img_default = "__PUBLIC__/img/default/default_list_category.png";
+    var img_more = "__PUBLIC__/img/default/category_more.png";
+</script>
+<div class="list-category-top">
+    <div class="list-category-title" id="list-title">
+        
+    </div>
+</div>
+<div class="list-category-content" style="background-image:url(__PUBLIC__/img/list_category/list_category_background.png)" id="page_content">
+    <div style="margin-top:0px;margin-left:0px;width:100%;height:100%;" id="content_all">
+        <div class="list-category-content-left" id="dleft">
+            <!--
+            <div class="list-category-img-circular1">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            <div class="list-category-img-circular2">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            <div class="list-category-img-circular2">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            <div class="list-category-img-circular2">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            -->
+        </div>
+        <div class="list-category-content-right" id="dright">
+         <!--
+            <div class="list-category-item">
+                <div class="list-category-item-title">新舞抢先看</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d12" data-down="d21" id="d11">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-right="d13"  data-down="d22" data-left="d11" id="d12">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-right="d14"  data-down="d23" data-left="d12" id="d13">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d13"  data-down="d24" id="d14">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-category-item">
+                <div class="list-category-item-title">热门舞蹈排行榜</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d22" data-up="d11" data-down="d31" id="d21">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d21" data-right="d23" data-up="d12" data-down="d32" id="d22">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d22" data-right="d24" data-up="d13" data-down="d33" id="d23">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d23" data-up="d14" data-down="d34" id="d24">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-category-item">
+                <div class="list-category-item-title">知名舞队</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d32" data-up="d21" data-down="d41" id="d31">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d31" data-right="d33" data-up="d22" data-down="d42" id="d32">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d32" data-right="d34" data-up="d23" data-down="d43" id="d33">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d33" data-up="d24" data-down="d44" id="d34">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-category-item">
+                <div class="list-category-item-title">健康舞步</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d42" data-up="d31" id="d41">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d41" data-right="d43" data-up="d32" id="d42">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d42" data-right="d44" data-up="d33" id="d43">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d43" data-up="d34" id="d44">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            -->
+        </div>
+    </div>
+</div>
+
+
+<!--
+    
+<div class="list-category-content-left" id="dleft">
+            <div class="list-category-img-circular1">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            <div class="list-category-img-circular2">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            <div class="list-category-img-circular2">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+            <div class="list-category-img-circular2">
+                <img src="__PUBLIC__/img/list_category/circular.png" />
+            </div>
+            <div class="list-category-img-line">
+                <img src="__PUBLIC__/img/list_category/line.png" />
+            </div>
+        </div>
+        <div class="list-category-content-right" id="dright">
+            <div class="list-category-item">
+                <div class="list-category-item-title">新舞抢先看</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d12" data-down="d21" id="d11">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-right="d13"  data-down="d22" data-left="d11" id="d12">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-right="d14"  data-down="d23" data-left="d12" id="d13">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d13"  data-down="d24" id="d14">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-category-item">
+                <div class="list-category-item-title">热门舞蹈排行榜</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d22" data-up="d11" data-down="d31" id="d21">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d21" data-right="d23" data-up="d12" data-down="d32" id="d22">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d22" data-right="d24" data-up="d13" data-down="d33" id="d23">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d23" data-up="d14" data-down="d34" id="d24">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-category-item">
+                <div class="list-category-item-title">知名舞队</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d32" data-up="d21" data-down="d41" id="d31">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d31" data-right="d33" data-up="d22" data-down="d42" id="d32">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d32" data-right="d34" data-up="d23" data-down="d43" id="d33">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d33" data-up="d24" data-down="d44" id="d34">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-category-item">
+                <div class="list-category-item-title">健康舞步</div>
+                <div class="list-category-item-list">
+                    <div class="list-category-item-info" data-right="d42" data-up="d31" id="d41">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞上榜</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d41" data-right="d43" data-up="d32" id="d42">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>达人新舞教你跳</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d42" data-right="d44" data-up="d33" id="d43">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/default/default_list_category.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>新舞连连看</label>
+                        </div>
+                    </div>
+                    <div class="list-category-item-info" data-left="d43" data-up="d34" id="d44">
+                        <div class="list-category-item-info-img">
+                            <img src="__PUBLIC__/img/list_category/category_more.png" />
+                        </div>
+                        <div class="list-category-item-info-title">
+                            <label>更多</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->

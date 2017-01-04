@@ -1,0 +1,26 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/exam/exam_bloodpress_hearttrends','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label class="exam-form-title" id="lbltitle">健康档案 - 心率趋势图</label>
+    </div>
+</div>
+<div class="page-list" id="page_content">
+    <div class="exam-form-bg" style="background:url(__PUBLIC__/img/exam/exam_hearttrends.png);padding:0px;height:486px;">
+
+    </div>
+    <div class="exam-form-right" style="margin-top:-327px;">
+        <img src="../../app/home/Public/img/exam/exam_right.png" />
+    </div>
+    <div class="exam-form-left" style="margin-top:-327px;">
+        <img src="../../app/home/Public/img/exam/exam_left.png" />
+    </div>
+</div>

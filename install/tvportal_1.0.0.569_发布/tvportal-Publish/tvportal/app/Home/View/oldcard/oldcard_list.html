@@ -1,0 +1,58 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')} 
+    {:loadfile('__PUBLIC__/css/deep_blue/addcard','css')} 
+    {:loadfile('__PUBLIC__/js/base/new2.0/tableevent','js')}
+    {:loadfile('__PUBLIC__/js/mod/oldcard/oldcard_list_new','js')}
+    <!--{:loadfile('__PUBLIC__/js/base/tableEvent','js')}
+    {:loadfile('__PUBLIC__/js/mod/oldcard/oldcard_list','js')}-->
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<style type="text/css">
+    .tile img {
+        width: 195px;
+        height: 204px;
+    }
+</style>
+
+<div class="oldcard-page-list-title">
+    <div class="oldcard-list-title ">
+        <label>老年卡列表页</label>
+        <hr />
+    </div>
+</div>
+<div class="oldcard-page-list oldcard-page-list-oldcard">
+    <table  width="560" class="layout">
+        <tbody>
+            <tr>
+                <td id="td0" cardid="1" style="width: 195px; height: 204px;" jump-url="oldcardinfo.html" data-down="" data-right="td1">
+                    <div class="tile">
+                        <img class="lazy" src="__PUBLIC__/img/list_oldcard/card001.png" data-src="__PUBLIC__/img/list_oldcard/card001.png">
+                    </div>
+                </td>
+                <td id="td1" cardid="2" style="width: 195px; height: 204px;" jump-url="oldcardinfo.html" data-down="" data-right="td2" data-left="td0">
+                    <div class="tile">
+                        <img class="lazy" src="__PUBLIC__/img/list_oldcard/card002.png" data-src="__PUBLIC__/img/list_oldcard/card002.png">
+                    </div>
+                </td>
+                <td id="td2" cardid="3" style="width: 195px; height: 204px;" jump-url="oldcardinfo.html" data-down="" data-right="td3" data-left="td1">
+                    <div class="tile">
+                        <img class="lazy" src="__PUBLIC__/img/list_oldcard/card003.png" data-src="__PUBLIC__/img/list_oldcard/card003.png">
+                    </div>
+                </td>
+                <td id="td3" styletileoldcardwidth: 195px; height: 204px;" jump-url="addoldcard.html" data-down="" data-right="" data-left="td2">
+                    <div class="tile">
+                        <img class="lazy" src="__PUBLIC__/img/list_oldcard/addoldcard.png" data-src="__PUBLIC__/img/list_oldcard/addoldcard.png">
+                    </div>
+                </td>
+                <td id="td4" style="width: 195px; height: 204px;" >
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

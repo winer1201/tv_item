@@ -1,0 +1,86 @@
+html{
+	background:#000033;
+}
+body{
+	width:1280px;
+	height:720px;
+}
+#wrap{
+	width:1280px;
+	height:720px;
+	text-align:left;
+}
+#wrap .header{
+	height:40px;
+	padding:67px 0 0 160px;
+	margin-bottom:40px;
+}
+#wrap .header h2{
+	font-size:30px;
+	color:#fff;
+	font-weight:normal;
+}
+#wrap .content{
+	width:981px;
+	height:485px;
+	margin:0 auto;
+	border:1px solid #3E547C;
+	overflow:hidden;
+	color:#fff;
+	
+}
+#wrap .con_wrap{
+	width:981px;
+	height:2000px;
+	position:relative;
+}
+#wrap .con_wrap dl{
+	padding-top:18px;
+	height:155px;
+	border-bottom:1px solid #778299;
+	padding-left:94px;
+}
+#foodlist{
+	position:absolute;
+}
+#wrap .con_wrap dl dt{
+	float:left;
+	width:374px;
+	
+}
+#wrap .con_wrap .food_name{
+	font-size:24px;
+	line-height:30px;
+	margin-bottom:12px;
+	margin-top:18px;
+	width:404px;
+	float:left;
+}
+#wrap .con_wrap .food_name span{
+	float:left;
+}#wrap .con_wrap .food_name i{
+	float:right;
+}
+#wrap .con_wrap .shicai{
+	font-size:21px;
+	line-height:32px;
+	width:420px;
+	float:left;
+}
+#wrap .con_wrap .mask{
+	height:165px;
+	width:973px;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+#wrap .mask_con{
+	width:981px;
+	position:absolute;
+	left:0;
+	top:0;
+	height:485px;
+	z-index:1;
+	opacity:0.3;
+}

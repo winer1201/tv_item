@@ -1,0 +1,17 @@
+<layout name="Layout/content" />
+    {:loadfile('__PUBLIC__/js/base/tableEvent','js')}
+    {:loadfile('__PUBLIC__/js/base/navEvent','js')}
+    {:loadfile('__PUBLIC__/js/indexEvent','js')}    
+    {:loadfile('__PUBLIC__/js/index','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<div id="page_navbar" class="page-navbar">
+</div>
+<div id="page_content" class="page-content">
+</div>
+

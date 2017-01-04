@@ -1,0 +1,72 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/js/mod/goods/goods_order','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="goods-top">
+    <div class="goods-info-title" id="page-title">
+        <label id="lbltitle">订单详情</label>
+    </div>
+</div>
+<div class="goods-center" id="page_content">
+    <div class="goods-order-form">
+        <div class="goods-order-form-left">
+            <img src="__PUBLIC__/img/goods/goods_info.png" />
+        </div>
+        <div class="goods-order-form-right" style="height:500px;">
+            <div style="margin-top:20px;">
+                <label >欧姆龙血压计</label>
+                <label style="margin-left:20px;">分类汇总</label>
+            </div>
+            <div style="margin-top:30px;">
+                <div class="goods-order-form-right-item" style="padding-top: 5px;">
+                    <label>送货地址：</label>
+                </div>
+                <div class="goods-order-form-right-item " style="width:274px;height:89px;padding:10px;background-image:url(/app/Home/Public/img/goods/goods_order_input1.png)">
+                    <label style="font-size:21px;color:#eeeeee;">北京市朝阳区三里屯优衣库2单元305室</label>
+                </div>
+            </div>
+            <br><br>
+
+            <div style="margin-top:85px;">
+                <div class="goods-order-form-right-item" style="padding-top: 5px;">
+                    <label style="font-size:21px;color:#eeeeee;">联系电话：</label>
+                </div>
+                <div class="goods-order-form-right-item" style="width:294px;height:45px;background-image:url(/app/Home/Public/img/goods/goods_order_input2.png)">
+                    <input type="text" id="txtphone" style="width:294px;border:none;">
+                </div>
+            </div>
+            <br>
+            <div style="margin-top:40px;">
+                <div class="goods-order-form-right-item" style="padding-top: 5px;">
+                    <label >送货时间：</label>
+                </div>
+                <div class="goods-order-form-right-item" style="width:294px;height:45px;background-image:url(/app/Home/Public/img/goods/goods_order_input2.png)">
+                    <input type="text" id="txtphone" style="width:294px;padding-left:10px;margin-top:10px;border:none; font-size: 21px;color: #eeeeee;" value="0000-00-00">
+                </div>
+            </div>
+            <div style="margin-top:100px;">
+                <div class="goods-order-form-right-item" style="padding-top:5px;">
+                    <label >数量：</label>
+                </div>
+                <div class="goods-order-form-right-item" style="padding-top:5px;" id="d_number" data-down="btnAdd">
+                    <img src="/app/Home/Public/img/goods/goods_order_min.png">
+                    <label style="font-size:24px;color:#eeeeee;margin-left:20px;margin-right:20px;">1</label>
+                    <img src="/app/Home/Public/img/goods/goods_order_add.png">
+                </div>
+            </div>
+            <div style="margin-top:180px;">
+
+                <div style="float:left;text-align:left;margin-left:108px;">
+                    <div>
+                        <label style="font-size:21px;padding:10px;" id="btnAdd" data-up="d_number" data-right="btnBack">加入购物车</label>
+                        <label style="font-size:21px;margin-left:30px;padding:10px;" id="btnBack" data-up="d_number" data-left="btnAdd">返&nbsp;回</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

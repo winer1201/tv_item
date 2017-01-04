@@ -1,0 +1,52 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/list/list_search','js')}
+{:loadfile('__PUBLIC__/js/tools/titleRollTool','js')}
+
+<style>
+    .filter_bg{
+        background-image:url(__PUBLIC__/img/list_search/filter_bg.png);
+        margin-bottom:10px;
+    }
+     .filter_bg_select{
+        background-image:url(__PUBLIC__/img/list_search/filter_bg_select.png);
+        margin-bottom:10px;
+    }
+    .colname{
+        white-space:nowrap;text-overflow:ellipsis;overflow:hidden;
+    }
+</style>
+<div class="page-list-title" style="margin-left:110px;">
+    <div class="list-title" style="margin-left:10px;" id="page-title">
+      
+            <label id="lbltitle"></label>
+        </div>        
+</div>
+
+<div class="page-list" id="page_content">
+    <div class="list-page-left" >
+        <div style="margin-bottom:10px;display:none;" id="dv_up">
+            <div class="list-page-left-container"  style="height:39px;">
+                <img src="__PUBLIC__/img/list_search/filter_pre.png" />
+            </div>
+        </div>
+        <div id="dvCategoryList" style="height:440px;overflow:hidden;">
+            <div id="dv_offset">
+            </div>
+        </div>       
+        <div style="margin-top:10px;display:none;" id="dv_down">
+            <div class="list-page-left-container" style="height:39px;">
+            <img src="__PUBLIC__/img/list_search/filter_next.png" />
+            </div>
+        </div>
+    </div>
+    <div style="margin-left:310px;margin-top:0px;overflow:hidden">
+        <div id="tbcontainer">
+            <table class="layout" id="dtlist">
+               
+            </table>
+        </div>
+    </div>
+</div>
+
+    {:loadfile('__PUBLIC__/js/mod/list/list_search_yuestart','js')}

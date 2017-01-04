@@ -1,0 +1,36 @@
+﻿<layout name="Layout/content" />
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<div id="page_content" class="page-content">
+    <!-- controls -->
+    <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="1280" height="720"
+           poster="http://video-js.zencoder.com/oceans-clip.png" data-setup="{}">
+        <source src="test.mp4" type='video/mp4' />
+        <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+        <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    </video>
+    <script type="text/javascript">
+    var myPlayer = videojs('example_video_1');
+    videojs("example_video_1").ready(function(){
+        var myPlayer = this;
+        myvideoHelper.init(myPlayer);
+        var file = "video/按摩三阴交穴可以减缓衰老.mp4";
+        file = tp.util.getQueryString("file");
+        myvideoHelper.play(file);
+        //myPlayer.enterFullScreen();
+        //设置播放文件路径
+        //var source = document.getElementsByTagName("source");
+
+        //myPlayer.src(file);
+        //source.setAttribute("src", "video/按摩三阴交穴可以减缓衰老.mp4")
+        //myPlayer.play();
+    });
+    </script>
+</div>
+

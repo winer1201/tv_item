@@ -1,0 +1,37 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/exam/exam_bloodsugar_trend','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label class="exam-form-title" id="lbltitle">健康档案 - 血糖趋势图</label>
+    </div>
+</div>
+<div class="page-list" id="page_content">
+    <!--
+    background:url(__PUBLIC__/img/exam/exam_bloodsugartrends.png);
+        486px
+    -->
+
+    <div class="exam-form-bg" id="dimg" style="padding:0px;height:420px;">
+
+    </div>
+    <div class="exam-form-right" style="margin-top:-327px;">
+        <img src="../../app/home/Public/img/exam/exam_right.png" />
+    </div>
+    <div class="exam-form-left" style="margin-top:-327px;">
+        <img src="../../app/home/Public/img/exam/exam_left.png" />
+    </div>
+    <div class="exam-form-up" id="upctr">
+        <img src="../../app/home/Public/img/exam/exam_up.png" />
+    </div>
+    <div class="exam-form-down" id="downctr">
+        <img src="../../app/home/Public/img/exam/exam_down.png" />
+    </div>
+</div>

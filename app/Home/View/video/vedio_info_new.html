@@ -1,0 +1,44 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/info','css')}
+    {:loadfile('__PUBLIC__/js/mod/video/vedioinfo_new','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<div class="info-left-pic">
+    <img id="poster" class="lazy" src="" data-src="">
+</div>
+<div class="info-right-content">
+    <div class="info-title">
+        <label id="lblname"></label>
+    </div>
+    <div class="info-line">
+        <img class="lazy" src="__PUBLIC__/img/videoinfo/video_line.png" data-src="__PUBLIC__/img/videoinfo/video_line.png">
+    </div>
+    <div class="app-desc-title">
+        <label id="lbldirector">导演：</label>
+    </div>
+    <div class="app-useinfo">
+        <label id="lblstars">演员：</label>
+    </div>
+    <div class="app-useinfo">
+        <label></label>
+    </div>
+    <div class="app-desc">
+        <label id="lbldesc"></label>
+    </div>
+    <div class="info-buttons">
+        <div>
+            <img class="lazy" id="btnPlay" data-right="btnCollect" data-left="btnCollect" src="__PUBLIC__/img/videoinfo/video_playdefault.png" data-src="__PUBLIC__/img/videoinfo/video_playdefault.png">
+        </div>
+        <div id="dchoice" style="display:none;">
+            <img class="lazy" id="btnChoice" src="__PUBLIC__/img/videoinfo/video_choicedefault.png" data-src="__PUBLIC__/img/videoinfo/video_choicedefault.png">
+        </div>
+        <div>
+            <img class="lazy" id="btnCollect" data-right="btnPlay" data-left="btnPlay" src="__PUBLIC__/img/videoinfo/video_collectdefault.png" data-src="__PUBLIC__/img/videoinfo/video_collectdefault.png">
+        </div>
+    </div>
+</div>

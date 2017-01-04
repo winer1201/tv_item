@@ -1,0 +1,80 @@
+* {
+    outline: 0;
+    background-color: transparent;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+/*cursor:none;*/
+html, body {
+    font-family: 'Microsoft YaHei','Microsoft YaHei UI';
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+    margin: 0 ;
+    width: 1280px;
+    height: 720px;
+    color: #FFF;
+    font-size: 14px;
+    background-color: rgb(242, 242, 242);
+}
+
+.wp {
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/*.wp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 100%;
+}*/
+
+.layout {
+    outline: 0;
+    transition: all .3s ease-in-out;
+}
+
+.page {
+    /*position: absolute;*/
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.page-footer {
+    position: absolute;
+    top: 666px;
+}
+
+ .page-footer div.tip {
+        padding-left: 937px;
+        display: inline;
+        float: left;
+    }
+
+    .page-footer label {
+        color: black;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+
+

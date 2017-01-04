@@ -1,0 +1,60 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/exam/exam_bloodpress_data','js')}
+
+<script type="text/javascript">
+    var arrowurl = "__PUBLIC__/img/exam/exam_arrow.png";
+    var arrow_down_url = "__PUBLIC__/img/exam/exam_arrow_down.png";
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label class="exam-form-title" id="lbltitle">健康档案 - 血压/心率历史数据</label>
+    </div>
+</div>
+<div class="page-list" id="page_content">
+    <div class="exam-form-bg" style="background:url(__PUBLIC__/img/exam/exam_data_bg.png);padding:0px;">
+        <table class="exam-form-table">
+            <thead>
+                <tr>
+                    <th style="width:193px;">
+                        <label >测量日期</label>
+                    </th>
+                    <th style="width:193px;">
+                        <label>高压（毫米汞柱）</label>
+                        <br />
+                        <label>90≤高压≤139</label>
+                    </th>
+                    <th style="width:193px;">
+                        <label>低压（毫米汞柱）</label>
+                        <br />
+                        <label>60≤低压≤89</label>
+                    </th>
+                    <th style="width:193px;">
+                        <label>心率（次/分钟）</label>
+                        <br />
+                        <label>60≤心率≤100</label>
+                    </th>
+                    <th>
+                        <label>测量设备</label>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tbbody" class="exam-form-table">
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="exam-form-left">
+        <img src="../../app/home/Public/img/exam/exam_left.png" />
+    </div>
+    <div class="exam-form-up" id="upctr">
+        <img src="../../app/home/Public/img/exam/exam_up.png" />
+    </div>
+    <div class="exam-form-down" id="downctr">
+        <img src="../../app/home/Public/img/exam/exam_down.png" />
+    </div>
+</div>

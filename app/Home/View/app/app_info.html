@@ -1,0 +1,49 @@
+﻿<layout name="Layout/content" />
+    {:loadfile('__PUBLIC__/css/info','css')}
+    {:loadfile('__PUBLIC__/js/base/formEvent','js')}
+    {:loadfile('__PUBLIC__/js/mod/app/appinfo','js')}    
+<script type="text/javascript">    
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<style type="text/css">
+    label{
+        color:#eeeeee;
+    }
+</style>
+
+<div class="info-left-pic">
+    <img id="poster" class="lazy" >
+</div>
+<div class="info-right-content">
+    <div class="info-title">
+        <label id="lblAppName" style="color:#eeeeee;"></label><label id="lblAppScore" class="appScore"></label><label id="lblDecimal" class="decimal"></label>
+    </div>
+    <div class="info-line">
+        <img class="lazy" src="__PUBLIC__/img/appinfo/app_line.png" data-src="__PUBLIC__/img/appinfo/app_line.png">
+    </div>
+    <div class="app-desc-title">
+        <label id="lblAppInfo" style="color:#eeeeee;"></label>
+    </div>
+    <div class="app-useinfo">
+        <label style="color:#eeeeee;">应用使用说明</label>
+        <img class="lazy" src="__PUBLIC__/img/appinfo/app_waishe.png" data-src="__PUBLIC__/img/appinfo/app_waishe.png">
+    </div>
+    <div class="app-desc">
+        <label id="lbldesc" style="color:#eeeeee;"></label>
+    </div>
+    <div class="info-line">
+        <img class="lazy" src="__PUBLIC__/img/appinfo/app_line.png" data-src="__PUBLIC__/img/appinfo/app_line.png">
+    </div>
+    <div class="info-buttons">
+        <div>
+            <img class="lazy" id="btnStart"  data-right="btnCollect" data-left="btnCollect" src="__PUBLIC__/img/appinfo/app_startdefault.png" data-src="__PUBLIC__/img/appinfo/app_startdefault.png">
+        </div>
+        <div>
+            <img class="lazy" id="btnCollect"  data-right="btnStart" data-left="btnStart" src="__PUBLIC__/img/appinfo/app_collectdefault.png" data-src="__PUBLIC__/img/appinfo/app_collectdefault.png">
+        </div>
+    </div>
+</div>
+

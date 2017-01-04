@@ -1,0 +1,82 @@
+﻿<layout name="Layout/content" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    <!--{:loadfile('__PUBLIC__/css/list_oldcard','css')}-->
+    {:loadfile('__PUBLIC__/css/deep_blue/addcard','css')}
+    {:loadfile('__PUBLIC__/js/base/formEvent','js')}
+    {:loadfile('__PUBLIC__/js/mod/my/myinfo','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<div class="page-list-title">
+    <div class="list-title ">
+        <label>个人信息</label>
+        <hr  />
+    </div>
+</div>
+<div class="page-addcard">
+    <div class="form-item" style="height:100%">
+        <div class="item-1" style="width:355px;height:100%;margin-top:55px;">
+            <div style="margin-right:55px">
+                <img src="__PUBLIC__/img/myinfo/avatar.png" />
+            </div>
+            <div style="margin-right:55px;margin-top:30px;">
+                <img id="myqrcode" style="display:none;width:171px;width:180px;" src="" />
+            </div>
+        </div>
+        <div class="item-2" style="margin-top:55px;">
+            <div class="form-item form1">
+                <div class="item-1 title1" >
+                    <label>用户ID：</label>
+                </div>
+                <div class="item-2" id="d_usercode">
+                    
+                </div>
+            </div>
+            <div class="form-item form1">
+                <div class="item-1 title1">
+                    <label>设备ID：</label>
+                </div>
+                <div class="item-2" id="d_usermark">
+                    
+                </div>
+            </div>
+            <div class="form-item form1">
+                <div class="item-1 title1">
+                    <label>姓&nbsp&nbsp&nbsp&nbsp名：</label>
+                </div>
+                <div class="item-2" id="d_username">
+                    
+                </div>
+            </div>
+            <div class="form-item form1">
+                <div class="item-1 title1">
+                    <label>电&nbsp&nbsp&nbsp&nbsp话：</label>
+                </div>
+                <div class="item-2" id="d_phone">
+                    
+                </div>
+            </div>
+            <div class="form-item form1">
+                <div class="item-1 title1">
+                    <label>家庭住址：</label>
+                </div>
+                <div class="item-2" id="d_address">
+                    
+                </div>
+            </div>
+            <div class="form-item form1">
+                <div class="item-1 title1">
+
+                </div>
+                <div class="item-2">
+                    <!--<div style="background-image:url(img/myinfo/saved.png);width:192px;height:74px;"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

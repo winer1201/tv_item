@@ -1,0 +1,68 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/js/mod/restaurant/restaurant_order_add','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<style>
+    label {
+        font-size: 18px;
+        color: #eeeeee;
+    }
+
+    .title {
+        font-size: 21px;
+    }
+</style>
+<div class="goods-top">
+    <div class="goods-info-title" id="page-title">
+        <label id="lbltitle">订单详情</label>
+    </div>
+</div>
+<div class="goods-center" id="page_content">
+    <div style="margin-top:56px;margin-left:149px;">
+        <table border="0" cellpadding="0" cellspacing="0" style="width:983px;height:91px;">
+            <tr style="height:40px;">
+                <td style="width:172px;">
+                    <label>支付方式</label>
+                </td>
+                <td style="width:708px;vertical-align:central;">
+                    <div style="float:left;width:93px;height:31px;padding-top:5px;text-align:center;background-image:url(/app/Home/Public/img/goods/goods_order_add_pay_bg.png)" id="d_pay_oldcard" data-right="d_pay_tvcard" data-down="l_pay">
+                        <label>老年卡</label>
+                    </div>
+                    <div style="float:left;width:93px;height:31px;padding-top:5px;text-align:center;margin-left:30px;" id="d_pay_tvcard" data-right="l_pay" data-left="d_pay_oldcard" data-down="l_pay">
+                        <label>智能卡</label>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr style="height:51px;">
+                <td><label>共1个菜品</label></td>
+                <td><label>总计：</label><label id="lbl_all">25.00</label><label>元&nbsp;&nbsp;&nbsp;优惠：</label><label id="lbl_discount">2.00</label><label>元&nbsp;&nbsp;&nbsp;运费：</label><label id="lbl_carriage">5.00</label><label>元</label></td>
+                <td><label class="title" style="padding:5px;" id="l_pay" data-up="d_pay_oldcard" data-left="d_pay_tvcard">立即支付</label></td>
+            </tr>
+        </table>
+        <div style="width:983px;height:395px;margin:0px;background-image:url(/app/Home/Public/img/goods/goods_order_form_bg.png)">
+            <table border="0" cellpadding="0" cellspacing="0" style="width:983px;">
+                <thead>
+                    <tr style="height:70px;">
+                        <td style="width:500px;"></td>
+                        <td style="width:100px;"></td>
+                        <td style="width:183px;"></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="height:87px;">
+                        <td style="text-align:center;vertical-align:middle;"><label>紫薯山药</label></td>
+                        <td style="text-align:center;vertical-align:middle;"><label>1</label></td>
+                        <td style="text-align:center;vertical-align:middle;"><label id="item_discount">￥2.00</label></td>
+                        <td style="text-align:center;vertical-align:middle;"><label id="item_price">￥22.00</label></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

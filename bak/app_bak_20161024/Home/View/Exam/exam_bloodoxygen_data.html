@@ -1,0 +1,70 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/exam/exam_bloodoxygen_data','js')}
+
+<script type="text/javascript">
+    var arrowurl = "__PUBLIC__/img/exam/exam_arrow.png";
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        border: none;
+        width: 200px;
+    }
+
+    td {
+        border: solid #000 1px;
+        border-color: #555555;
+    }
+
+    th {
+        border: solid #000 1px;
+        border-color: #555555;
+    }
+</style>
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label class="exam-form-title" id="lbltitle">健康档案 - 血氧历史数据</label>
+    </div>
+</div>
+<div class="page-list" id="page_content">
+    <div class="exam-form-bg" style="background:url(__PUBLIC__/img/exam/exam_bg.png);padding:0px;">
+        <table class="exam-form-table">
+            <thead style="background-color:#132037;">
+                <tr>
+                    <th style="width:193px;">
+                        <label>测量日期</label>
+                    </th>
+                    <th style="width:193px;">
+                        <label>血氧气测量值</label>
+                        <br />
+                        <label>94%～100%</label>
+                    </th>
+                    <th style="width:193px;">
+                        <label>连续血氧</label>
+                    </th>
+                    <th style="width:193px;">
+                        <label>血氧结果</label>
+                    </th>
+                    <th>
+                        <label>测量设备</label>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tbbody" class="exam-form-table"></tbody>
+        </table>
+    </div>
+    <div class="exam-form-left">
+        <img src="../../app/home/Public/img/exam/exam_left.png" />
+    </div>
+    <div class="exam-form-up" id="upctr">
+        <img src="../../app/home/Public/img/exam/exam_up.png" />
+    </div>
+    <div class="exam-form-down" id="downctr">
+        <img src="../../app/home/Public/img/exam/exam_down.png" />
+    </div>
+</div>

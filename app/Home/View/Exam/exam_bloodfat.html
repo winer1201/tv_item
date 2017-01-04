@@ -1,0 +1,52 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/js/mod/exam/exam_bloodfat','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="page-list-title">
+    <div class="list-title" id="page-title">
+        <label class="exam-form-title" id="lbltitle">健康档案 - 血脂</label>
+    </div>
+</div>
+<div class="page-list" id="page_content">
+    <div class="exam-form-bg" style="background:url(__PUBLIC__/img/exam/exam_bg.png);padding:0px;">
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">本段时间内，您总共测量了3次血脂，其中：</label>
+        </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">总胆固醇正常：</label>
+            <label class="exam-form-label-green">3次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">0次</label>
+          </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">甘油三酯正常：</label>
+            <label class="exam-form-label-green">2次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">1次</label>
+        </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">高密度脂蛋白正常：</label>
+            <label class="exam-form-label-green">3次</label>
+            <label class="exam-from-col-label">，偏低：</label>
+            <label class="exam-form-label-red">0次</label>
+        </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">低密度脂蛋白正常：</label>
+            <label class="exam-form-label-green">1次</label>
+            <label class="exam-from-col-label">，偏高：</label>
+            <label class="exam-form-label-red">2次</label>
+        </div>
+        <div class="exam-from-col">
+            <label class="exam-from-col-label">如果您对数据报告有任何疑问，请及时咨询私人医生。</label>
+        </div>
+    </div>
+    <div class="exam-form-right">
+        <img src="../../app/home/Public/img/exam/exam_right.png" />
+    </div>
+</div>

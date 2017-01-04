@@ -1,0 +1,178 @@
+﻿<layout name="Layout/content" />
+    <!--{:loadfile('__PUBLIC__/css/deep_blue/layout','css')}-->
+    <!--{:loadfile('__PUBLIC__/demo/css/oldcard','css')}-->
+    <!--{:loadfile('__PUBLIC__/demo/css/css','css')}-->    
+    {:loadfile('__PUBLIC__/js/base/formEvent','js')}
+    {:loadfile('__PUBLIC__/js/base/tableEvent','js')}
+    <!--{:loadfile('__PUBLIC__/js/myinfo','js')}-->
+    <!--{:loadfile('__PUBLIC__/demo/js/oldcard','js')}-->
+    <!--{:loadfile('__PUBLIC__/demo/js/moveoldlist','js')}-->
+    {:loadfile('__PUBLIC__/js/mod/my/mymessagelist','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<div class="page-title-left" style="top:0px;margin-top:0px;height:84px;">
+    <div class="list-title" style="margin-top: 27px;margin-left: 80px;width:1100px;" id="page-title">
+        <label class="page-title-left-label">我的消息</label>
+        <hr />
+    </div>
+    <div class="page-content" style="margin-top: 94px;">
+        <div class="page-col page-message-list">
+            <table >
+                <tr>
+                    <td id="td0" data-down="td1">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td1" data-down="td2" data-up="td0">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td2" data-down="td3" data-up="td1">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td3" data-down="td4" data-up="td2">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td4" data-down="td5" data-up="td3">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td5" data-down="td6" data-up="td4">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td6" data-down="td7" data-up="td5">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td7" data-down="td8" data-up="td6">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td8" data-down="td9" data-up="td7">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td9" data-up="td8">
+                        <div class="tile" style="width:410px; height:33px; ">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="page-col page-message-info">
+            <table >
+                <tr>
+                    <td class="page-message-info-title" id="td_title">
+                        <h1>登陆送鸡蛋</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="page-message-info-content" id="td_date">
+                    <h2 >活动时间：2014年4月1日————2014年6月1日</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="page-message-info-content" id="td_content">
+                        <h2 >活动详情：</h2>
+                        <span class="page-message-info-info">1.凭兑换码可以去以下地址领取1枚鸡蛋<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址1：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<!--
+        <div style="margin-left:80px; margin-top:30px;">
+            <table style="width:450px; height:40px; font-size:20px; border-right:1px #999 solid;">
+                <tr>
+                    <td id="td0" data-down="td1">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td1" data-down="td2" data-up="td0">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td2" data-down="td3" data-up="td1">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td3" data-down="td4" data-up="td2">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td4" data-down="td5" data-up="td3">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td5" data-down="td6" data-up="td4">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td6" data-down="td7" data-up="td5">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td7" data-down="td8" data-up="td6">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td8" data-down="td9" data-up="td7">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td9" data-up="td8">
+                        <div class="tile" style="width:410px; height:33px; text-align:center; line-height:33px;">2015-03-28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【系统消息】 XXXX消息</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="mov">
+            <table style="width:650px; float:right; height:550px; border:1px #999 solid; margin-top:-552px; margin-right:70px; background-color:#FFF; opacity: 0.5;">
+                <tr>
+                    <td style="text-align:center; height:50px;"><h1>登陆送鸡蛋</h1></td>
+                </tr>
+                <tr>
+                    <td style="height:50px;"><h2 style="margin-left:30px;">活动时间：2014年4月1日————2014年6月1日</h2></td>
+                </tr>
+                <tr>
+                    <td style="height:50px;"><h2 style="margin-left:30px;">活动详情：</h2><span style="font-size:18px; color:525252; margin-left:30px;">1.凭兑换码可以去以下地址领取1枚鸡蛋<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址1：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+
+-->

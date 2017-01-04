@@ -1,0 +1,67 @@
+#header h2{
+	height:80px;
+	line-height:80px;
+	font-size:34px;
+	color:#fff;
+	margin-top:65px;
+	padding-left:175px;
+	text-align:left;
+	font-weight:100;
+}
+.list{
+	padding-left:110px;
+	text-align: left;
+	width:1060px;
+	color:#fff;
+	font-size:18px;
+	overflow: hidden;
+}
+.list dt{
+	height:364px;
+}
+
+.list dl{
+	float:left;
+	margin:0 14px 40px 0;
+	box-sizing:border-box;
+	position:relative;
+	height:364px;
+	width:255px;
+}
+.dance_load{
+	width:1100px;
+}
+#footer label{
+	display: none;
+}
+dl dd{
+	position:absolute;
+	bottom:0;
+	left:0;
+	background: rgba(0,0,0,0.4);
+	height:55px;
+	width:183px;
+	line-height:55px;
+	padding-left:72px;
+	font-size:22px;
+}
+dl dd i{
+	position:absolute;
+	display: block;
+	height:65px;
+	width:65px;
+	left:5px;
+	top:-16px;
+	background-size:100% 100%;
+	border-radius:50%;
+}
+dl dd em{
+	position:absolute;
+	width:59px;
+	height:55px;
+	line-height:55px;
+	display:block;
+	right:0;
+	top:0;
+	padding-left:26px;
+}

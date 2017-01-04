@@ -1,0 +1,49 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/details/details','css')}
+    {:loadfile('__PUBLIC__/css/reset','css')}
+    {:loadfile('__PUBLIC__/css/deep_blue/info','css')}
+    {:loadfile('__PUBLIC__/js/base/formEvent','js')}
+    {:loadfile('__PUBLIC__/js/jquery.min','js')}
+    {:loadfile('__PUBLIC__/js/mod/details/details','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<style>
+	.page{
+		background: url(/app/Home/Public/img/bg1.png) no-repeat;
+	}
+</style>
+<div class="sign">
+	<h2 id="album"style="background:url(/app/Home/Public/img/details/teacher.png) no-repeat 0px 20px;">王广成</h2>
+</div>
+<div class="video_content">
+	<div class="video_lt">
+		<video src="http://10.10.20.11:15150/video/guanggao/omron_xyj.mp4" id="video" width="462" height="296" controls poster="/app/Home/Public/img/details/poster.png"></video>
+	</div>
+	<div class="video_rt">
+		<ul>
+			<li>视频名称：<span id="videoname"></span></li>
+			<li>舞&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;队：<span id="dancename"></span></li>
+			<li>日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期：<span style="letter-spacing:2px;">2015-10-05</span></li>
+			<li style="height:156px;overflow: hidden;">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：<span id="abstract">王广成广场舞队带来一支简单好看的广场舞<今生路>，轻盈欢快的舞姿，自由律动的舞步，优雅大方的动作，视频附有详细的动作分解，欢迎大家来学习和欣赏！</span></li>
+		</ul>
+		<div class="btn">
+			<span id="sp1" data-right="sp2"data-down="li1"style="background:url(/app/Home/Public/img/details/btn.png) no-repeat">播放</span>
+			<span id="sp2" data-right="sp3"data-left="sp1"data-down="li1"style="background:url(/app/Home/Public/img/details/btn.png) no-repeat">全屏</span>
+			<span id="sp3" data-right="li1"data-left="sp2"data-down="li1"style="background:url(/app/Home/Public/img/details/btn.png) no-repeat">收藏</span>
+		</div>
+	</div>
+</div>
+<div class="video_list">
+	<ul style="width:4000px;position:absolute;left:0;top:0;"class="tuo">
+		<li id="li1"data-right="li2"data-left="sp3"data-up="sp1"style="background:url(/app/Home/Public/img/details/list.png) no-repeat"></li>
+		<li id="li2"data-right="li3"data-left="li1"data-up="sp1"style="background:url(/app/Home/Public/img/details/list.png) no-repeat"></li>
+		<li id="li3"data-right="li4"data-left="li2"data-up="sp1"style="background:url(/app/Home/Public/img/details/list.png) no-repeat"></li>
+		<li id="li4"data-right="li5"data-left="li3"data-up="sp1"style="background:url(/app/Home/Public/img/details/list.png) no-repeat"></li>
+		<li id="li5"data-right="li6"data-left="li4"data-up="sp1"style="background:url(/app/Home/Public/img/details/list.png) no-repeat"></li>
+		<li id="li6"data-left="li5"data-up="sp1"style="background:url(/app/Home/Public/img/details/duo.png) no-repeat"></li>
+	</ul>
+</div>

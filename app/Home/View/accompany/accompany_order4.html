@@ -1,0 +1,82 @@
+<layout name="Layout/content_new" />
+{:loadfile('__PUBLIC__/css/deep_blue/addcard','css')}
+    {:loadfile('__PUBLIC__/js/mod/accompany/accompany_order4','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<style type="text/css">
+    label{
+        font-size:20px;
+        color:#eeeeee;
+    }
+    .text{
+        font-size:20px;
+        color:#eeeeee;
+        padding:5px;
+        line-height: 1.428571429;
+    }
+</style>
+<div class="list-category-top">
+    <div class="list-category-title" id="page-title">
+        58-陪护
+    </div>
+</div>
+<div class="list-category-content" id="page_content">
+    <div style="margin-left:201px;margin-top:56px;">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td style="width:100px;">
+                    <label>地址：</label>
+                </td>
+                <td style="width:336px;">
+                    <textarea class="text" style="height:109px;width:294px;background-image:url(__PUBLIC__/img/peihu/order4_input_lm.png);border:none;" readonly="readonly" maxLength="11" id="txtaddr">北京市朝阳区三里屯优衣库2单元305室</textarea>
+                </td>
+                <td style="width:150px;"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>姓名：</label>
+                </td>
+                <td>
+                    <input class="text" type="text" style="height:45px;width:294px;margin-top:10px;background-image:url(__PUBLIC__/img/peihu/order4_input_sm.png);border:none;" onclick="return false;"  value="" readonly="readonly" maxLength="11" id="txtname" data-down="txtphone" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>电话：</label>
+                </td>
+                <td>
+                    <input class="text" type="text" style="height:45px;width:294px;margin-top:10px;background-image:url(__PUBLIC__/img/peihu/order4_input_sm.png);border:none;"  value="" readonly="readonly" maxLength="11" id="txtphone" data-down="txtcode" data-up="txtname" data-right="btn_vercode" />
+                </td>
+                <td>
+                    <div style="margin-top:10px;background-image:url(__PUBLIC__/img/peihu/order_btn.png);width:146px;height:37px;text-align:center;padding-top:8px;" id="btn_vercode" data-down="txtcode" data-up="txtname" data-left="txtphone">
+                        <label style="font-size:22px;">获取验证码</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>验证码：</label>
+                </td>
+                <td>
+                    <input class="text" type="text" style="height:45px;width:294px;margin-top:10px;background-image:url(__PUBLIC__/img/peihu/order4_input_sm.png);border:none;" value="" readonly="readonly" maxLength="11" id="txtcode" data-down="btn_submit" data-up="txtphone" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div style="background-image:url(__PUBLIC__/img/peihu/order_btn.png);margin-top:75px;margin-left:70px; width :146px;height:37px;text-align:center;padding-top:8px;" id="btn_submit" data-up="txtcode">
+                        <label style="font-size:22px;">提  交</label>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>

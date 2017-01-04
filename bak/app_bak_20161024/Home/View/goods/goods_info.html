@@ -1,0 +1,35 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/js/mod/goods/goods_info','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+    var img_sel = "__PUBLIC__/img/goods/sel_select.png";
+    var img_unsel = "__PUBLIC__/img/goods/sel_unselect.png";
+</script>
+<div class="goods-top">
+    <div class="goods-info-title" id="page-title">
+        <label id="lbltitle">欧姆龙电子血压计</label>
+    </div>
+</div>
+<div class="goods-center" id="page_content">
+    <div style="height:30px;">
+        <label style="margin-left:700px;font-size:21px;color:#eeeeee;">1609元起</label>
+        <label style="margin-left:50px;font-size:21px;color:#eeeeee;">立即购买</label>
+    </div>
+    <div class="goods-info-form" id="dform">
+        <!--<img src="__PUBLIC__/img/goods/goods_xyj_1.png" />-->
+    </div>
+    <div class="goods-info-sel" id="dsel">
+        <!--<img src="__PUBLIC__/img/goods/sel_select.png" />
+        <img src="__PUBLIC__/img/goods/sel_unselect.png" />
+        <img src="__PUBLIC__/img/goods/sel_unselect.png" />-->
+    </div>
+    <div class="goods-form-right" style="margin-top:-327px;" id="d_right">
+        <img src="../../app/home/Public/img/exam/exam_right.png" />
+    </div>
+    <div class="goods-form-left" style="margin-top:-327px;" id="d_left">
+        <img src="../../app/home/Public/img/exam/exam_left.png" />
+    </div>
+</div>

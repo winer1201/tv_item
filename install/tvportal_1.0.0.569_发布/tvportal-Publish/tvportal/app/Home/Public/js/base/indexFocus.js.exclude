@@ -1,0 +1,179 @@
+﻿//一级页面，元素焦点切换逻辑
+var indexFocus = {
+    curCtr: null,
+    preTD: null,
+    changeLeftNav: function () { },//切换左侧导航
+    changeRightNav: function () { },//切换右侧导航
+    focusCurNav: function () { },//选中当前光标
+    selectDefaultTD: function () { },//选中默认td光标
+    doEsc: function () { },//esc处理事件
+    doEnter: function () { },//回车处理事件
+    init: function (options) {
+        var that = indexFocus;
+        eventHelper.initialize({
+            doFocus: that.focus,
+            doEsc: that.esc,
+            doEnter: that.enter
+        });
+
+        if (options) {
+            if (options.changeRightNav)
+                that.changeRightNav = options.changeRightNav;
+            if (options.changeLeftNav)
+                that.changeLeftNav = options.changeLeftNav;
+            if (options.focusCurNav)
+                that.focusCurNav = options.focusCurNav;
+            if (options.selectDefaultTD)
+                that.selectDefaultTD = options.selectDefaultTD;
+            if (options.doEsc)
+                that.doEsc = options.doEsc;
+            if (options.doEnter)
+                that.doEnter = options.doEnter;
+
+            if (options.atferInit)
+                options.atferInit();
+        }
+    },
+    reset: function () {
+        var that = indexFocus;
+        that.curCtr = null;
+        that.preTD = null;
+    },
+    focus: function (key) {
+        var that = indexFocus;
+        if (that.curCtr == null || that.curCtr == undefined) return;
+        var ctrNodeName = that.curCtr.nodeName.toLowerCase();
+        if (ctrNodeName == "div") {
+            if (key == 38) reutrn;//向上无效
+            else if (key == 37) {
+                //向左切换页面
+                //TODO：
+                that.preTD = null;
+                if (that.changeLeftNav) {
+                    that.changeLeftNav(true);
+                }
+            }
+            else if (key == 39) {
+                //向右切换页面
+                that.preTD = null;
+                if (that.changeRightNav) {
+                    that.changeRightNav(true);
+                }
+            }
+            else if (key == 40) {
+                var tdCtr = that.preTD;
+                that.preTD = null;
+                //向下切换至td
+                if (tdCtr == null) {
+                    if (that.selectDefaultTD)
+                        that.selectDefaultTD();
+                }
+                else
+                    that.selectCtr(tdCtr);
+            }
+        }
+        else if (ctrNodeName == "td") {
+            if (key == 37) {
+                //向左切换td
+                //TODO：
+                var tdID = that.curCtr.getAttribute('data-left');
+                if (tdID == null || tdID == "") {
+                    if (that.changeLeftNav) {
+                        that.changeLeftNav(false);
+                    }
+                    return;
+                }
+                var tdCtr = document.all(tdID);
+                that.selectCtr(tdCtr);
+            }
+            else if (key == 39) {
+                //向右切换td
+                var tdID = that.curCtr.getAttribute('data-right');
+                if (tdID == null || tdID == "") {
+                    if (that.changeRightNav) {
+                        that.changeRightNav(false);
+                    }
+                    return;
+                }
+                var tdCtr = document.all(tdID);
+                that.selectCtr(tdCtr);
+            }
+            else if (key == 38) {//向上切换焦点至导航
+                //向上切换td
+                var tdID = that.curCtr.getAttribute('data-up');
+                if (tdID == null || tdID == "") {
+                    that.preTD = that.curCtr;
+                    //选择当前导航
+                    if (that.focusCurNav)
+                        that.focusCurNav();
+                    return;
+                }
+                var tdCtr = document.all(tdID);
+                that.selectCtr(tdCtr);
+            }
+            else if (key == 40) {//向下切换td
+                //向下切换td
+                var tdID = that.curCtr.getAttribute('data-down');
+                if (tdID == null || tdID == "") {
+                    return;
+                }
+                var tdCtr = document.all(tdID);
+                that.selectCtr(tdCtr);
+            }
+        }
+    },
+    esc: function (key) {
+        var that = indexFocus;
+        if (that.doEsc)
+            that.doEsc(key);
+    },
+    enter: function (key) {
+        var that = indexFocus;
+        if (that.doEnter)
+            that.doEnter(key);
+    },
+    selectCtrID: function (id) {
+        var that = indexFocus;
+        if (id == null || id == "")
+            return;
+        var ctr = document.all(id);
+        if (ctr == null) return;
+        that.selectCtr(ctr);
+    },
+    selectCtr: function (ctr) {
+        var that = indexFocus;
+        if (ctr == null || ctr == undefined) return;
+        var ctrNodeName = ctr.nodeName.toLowerCase();
+        that.unSelectCtr(that.curCtr);
+        if (ctrNodeName == "td") {
+            ctr.children[0].className = "tile wrap";
+            that.curCtr = ctr;
+            ctr.isSelected = true;
+        }
+        if (ctrNodeName == "div") {
+            ctr.className = "navbar sel";
+            ctr.children[0].className = "";
+            that.curCtr = ctr;
+            ctr.isSelected = true;
+        }
+
+    },
+    unSelectCtr: function (ctr) {
+        if (ctr == null || ctr == undefined) return;
+        var ctrNodeName = ctr.nodeName.toLowerCase();
+        if (ctrNodeName == "td")
+            ctr.children[0].className = "tile";
+        else if (ctrNodeName == "div") {
+            ctr.className = "navbar";
+            ctr.children[0].className = "curpage";
+        }
+        ctr.isSelected = false;
+    },
+    //返回或回退键
+    goBackUrl: function () {
+        var backUrl = tp.util.getQueryString('backUrl');
+        if (backUrl != null && backUrl != undefined && backUrl != "") {
+            tp.util.redirectUrl(backUrl);
+        }
+    },
+}

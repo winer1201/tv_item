@@ -1,0 +1,113 @@
+﻿.info-left-pic {
+    float: left;
+    overflow: hidden;
+    margin: 0px;
+    text-align: left;
+    width: 355px;
+    height: 100%;
+    padding-top: 172px;
+    padding-left: 105px;
+}
+    .info-left-pic img {
+        /*box-shadow: 1px 0px 0px #000;*/
+        width:281px;
+        height:321px;
+    }
+
+.info-right-content {
+    float: left;
+    overflow: hidden;
+    margin: 0px;
+    padding-top: 170px;
+}
+
+.info-title {
+    /*margin-top: 172px;*/
+    margin-left: 3px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+    .info-title label {
+        font-size: 30px;
+        color: whitesmoke;
+    }
+
+        .info-title label.appScore {
+            font-size: 36px;
+            color: whitesmoke;
+            font-family: Arial;
+            margin-left: 20px;
+        }
+
+        .info-title label.decimal {
+            font-size: 20px;
+            color: whitesmoke;
+            font-family: Arial;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+.info-line {
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+.app-desc-title {
+    text-align: left;
+    margin-bottom: 18px;
+    margin-left: 4px;
+}
+
+    .app-desc-title label {
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+.app-useinfo {
+    text-align: left;
+    margin-bottom: 18px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+    .app-useinfo label {
+        font-size: 20px;
+        color: whitesmoke;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    .app-useinfo img {
+        vertical-align: middle;
+    }
+
+.app-desc {
+    margin-left: 4px;
+    text-align: left;
+    margin-bottom: 15px;
+    white-space: normal;
+    overflow: hidden;
+    width: 666px;
+    height:110px;
+}
+
+    .app-desc label {
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+.info-buttons {
+    margin-left: 0px;
+    /*margin-top:475px;*/
+    top: 475px;
+    float: left;
+    vertical-align: top;
+    text-align: left;
+    height: 100%;
+}
+
+    .info-buttons div {
+        float: left;
+        margin-right: 29px;
+    }

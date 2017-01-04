@@ -1,0 +1,55 @@
+﻿<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/css/deep_blue/addcard','css')}
+    {:loadfile('__PUBLIC__/js/mod/oldcard/oldcard_add','js')}
+
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+
+<div class="oldcard-page-list-title">
+    <div class="oldcard-list-title " >
+        <label >老年卡绑定页</label>
+        <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+    </div>
+</div>
+<div class="page-addcard">
+    <div class="form-item">
+        <div class="item-1">
+            <div>
+                <label>请输入卡号：</label>
+            </div>
+        </div>
+        <div class="item-2">
+            <input type="text" class="item-text " value="卡号" readonly="readonly" maxLength="23" id="txtcardno" data-down="txtphoneno" />
+        </div>
+    </div>
+    <div class="form-item">
+        <div class="item-1"><label>手机号：</label></div>
+        <div class="item-2">
+            <input type="text" class="item-text" value="银行预留手机号" readonly="readonly" maxLength="11" id="txtphoneno" data-down="txtveritycode" data-right="btnverity" data-up="txtcardno" />
+        </div>
+        <div class="item-2">
+            <img type="button" class="item-button btnval" src="__PUBLIC__/img/add_oldcard/vcode.png" id="btnverity" data-up="txtcardno" data-left="txtphoneno" data-down="txtveritycode" />
+            <label id="lblnum" class="lblval">60</label>
+        </div>
+    </div>
+    <div class="form-item">
+        <div class="item-1">
+            <label>验证码：</label>
+        </div>
+        <div class="item-2">
+            <input type="text" class="item-text" value="验证码" readonly="readonly" maxLength="6" id="txtveritycode" data-up="txtphoneno" data-down="btnsubmit" />
+        </div>
+
+    </div>
+    <div class="form-item">
+        <div class="item-1"></div>
+        <div class="item-2">
+            <img type="button" class="item-button bg" src="__PUBLIC__/img/add_oldcard/tjd.png" id="btnsubmit" data-up="txtveritycode" />
+        </div>
+    </div>
+</div>
+

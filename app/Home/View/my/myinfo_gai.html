@@ -1,0 +1,97 @@
+<layout name="Layout/content" />
+    {:loadfile('__PUBLIC__/css/deep_blue/list','css')}
+    {:loadfile('__PUBLIC__/css/reset','css')}
+    {:loadfile('__PUBLIC__/js/base/formEvent','js')}
+    {:loadfile('__PUBLIC__/js/jquery.min','js')}
+    {:loadfile('__PUBLIC__/js/mod/my/myinfo_gai','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+    }
+</script>
+<style>
+ .page{
+	background:url(/app/Home/Public/img/bg1.png) no-repeat;
+ }
+ .info_wrap{
+ 	width:1060px;
+ 	height:465px;
+ 	margin:140px 110px 0px 110px; 
+ 	font-size:34px;
+ 	position: relative;
+ }
+ li{
+ 	width:700px;
+ 	height:60px;
+ 	
+ }
+ span{
+ 	display: block;
+ 	height:60px;
+ 	width:170px;
+ 	float:left;
+ 	line-height: 60px;
+ 	color:#bebdbd;
+ 	
+ }
+ p{
+ 	float:left;
+ 	height:60px;
+ 	line-height:60px;
+ 	color:#fff;
+ 	width:485px;
+ }
+ .head_pic{
+ 	position:absolute;
+ 	left:350px;
+ 	top:-25px;
+ 	height:166px;
+ 	width:166px;
+ 	border-radius: 50%;
+ 	background-size:100% 100% ;
+ }
+ .erweima{
+ 	position:absolute;
+ 	right:60px;
+ 	top:40px;
+ 	color:#fff;
+ 	line-height: 50px;
+ }
+ i{
+ 	display: block;
+ 	width:270px;
+ 	height:270px;
+ 	z-index:10;
+ 
+ }
+</style>
+<div class="info_wrap">
+	<div class="head_pic">
+		
+	</div>
+	<div class="erweima">
+		<i id="myqrcode"></i>
+		<em>微信扫一扫<br/>完善个人信息</em>
+	</div>
+	<ul style="float:left;">
+		<li >
+			<span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span><p id="d_username"></p>
+		</li>
+		<li>
+			<span>昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</span><p id="nicheng"></p>
+		</li>
+		<li>
+			<span>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</span><p id="sex"></p>
+		</li>
+		<li>
+			<span>出生年月：</span><p id="birthday"></p>
+		</li>
+		<li>
+			<span>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</span><p class="phone"id="d_phone"></p>
+		</li>
+		<li>
+			<span>所属舞队：</span><p id="team"></p>
+		</li>
+	</ul>
+</div>

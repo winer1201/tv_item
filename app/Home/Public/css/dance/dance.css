@@ -1,0 +1,55 @@
+ #header h2{
+	height:80px;
+	line-height:80px;
+	font-size:34px;
+	color:#fff;
+	margin-top:65px;
+	padding-left:158px;
+	text-align:left;
+	font-weight:100;
+}
+.dance_load{
+	position:absolute;
+	left:110px;
+	top:0;
+}
+.list{
+	padding-left:110px;
+	text-align: left;
+	width:1060px;
+	color:#fff;
+	font-size:18px;
+	overflow: hidden;
+	position:relative;
+	height:718px;
+}
+.list dt{
+	margin-bottom:10px;
+	height:248px;
+	width:253px;
+	overflow: hidden;
+}
+
+.list dl{
+	float:left;
+	height:343px;
+	width:254px;
+	margin:0 12px 16px 0 !important;
+}
+.dance_load{
+	width:1100px;
+}
+#footer label{
+	display: none;
+}
+.tui{
+	height:343px;
+	float:left;
+	margin:0 12px 16px 0 !important;
+	background-size:100% 100%;
+}
+.tui_wrap{
+	height:365px;
+	width:1060px;
+	float:left;
+}
